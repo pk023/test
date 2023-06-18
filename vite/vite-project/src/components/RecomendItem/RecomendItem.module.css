@@ -1,0 +1,16 @@
+.profilephoto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.recomendItem{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.rightside{
+    margin-left: auto;
+}
+

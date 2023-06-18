@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.layout{
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+}
+
+@media (max-width:760px) {
+    .layout{
+        flex-direction: column;
+    }
+}

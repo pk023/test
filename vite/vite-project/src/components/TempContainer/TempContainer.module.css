@@ -1,0 +1,26 @@
+.layout{
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid black;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    transition: all 0.5s;
+    opacity: 0;
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    list-style: none;
+}
+
+.show{
+    left: 125px;
+    opacity: 1;
+}

@@ -1,0 +1,42 @@
+.photoContainer{
+    position: relative;
+    aspect-ratio: 4/5;
+    width: 100%;
+}
+
+.photo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    opacity: 0;
+    transition: transform 0.1s;
+}
+
+.past{
+    transform: translateX(-100%);
+}
+
+.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.future{
+    transform: translateX(100%);
+}
+
+.photobtn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(100%);
+}
+
+.next{
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.hide{
+    display: none;
+}

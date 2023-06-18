@@ -1,0 +1,29 @@
+.layout{
+    display: flex;
+    gap:10px;
+    display: none;
+}
+
+.iconlogo{
+    margin-right: auto;
+}
+
+.searchBar{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    border: none;
+}
+
+.notification{
+    width: 30px;
+}
+
+@media (max-width:760px) {
+    .layout{
+        display: flex;
+    }
+}

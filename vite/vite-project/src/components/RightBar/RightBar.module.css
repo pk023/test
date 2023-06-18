@@ -1,0 +1,40 @@
+.rightBar{
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.profilephoto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    align-items: center;
+}
+
+.recomend{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightside{
+    margin-left: auto;
+}
+
+.recomendlayout{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+@media (max-width:1090px) {
+    .rightBar{
+        display: none;
+    }
+}

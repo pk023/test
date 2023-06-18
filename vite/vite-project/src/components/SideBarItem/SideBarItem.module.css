@@ -1,0 +1,30 @@
+.icon{
+    width: 35px;
+}
+
+.itemlayout{
+    display: flex;
+    gap:10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.name{
+    vertical-align: middle;
+}
+
+.itemlayout:hover{
+    background-color: grey;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width:1250px) {
+    .name{
+        display: none;
+
+    }
+  
+}
